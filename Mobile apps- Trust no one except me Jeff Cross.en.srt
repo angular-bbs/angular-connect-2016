@@ -1,0 +1,1923 @@
+1
+00:00:00,260 --> 00:00:01,260
+大家好
+JEFF: Hello.
+
+2
+00:00:01,260 --> 00:00:02,260
+谢谢
+Thank you.
+
+3
+00:00:02,260 --> 00:00:04,930
+在开始前  我们先做点小事儿
+Before we get started, I actually need to go over something.
+
+4
+00:00:04,930 --> 00:00:06,890
+这是我的孩子们
+These are my boys.
+
+5
+00:00:06,890 --> 00:00:09,160
+等我从这个会场回家之后  我要做的第一件事就是
+The first thing I do when I come home from a conference is show
+
+6
+00:00:09,160 --> 00:00:10,890
+把我的这段演讲视频给他们看
+them the video of my talk.
+
+7
+00:00:10,890 --> 00:00:14,740
+所以  我希望在场的各位（如果可能的话）配合我这样做
+So, what I would like for everyone here to do, if you could,
+
+8
+00:00:14,740 --> 00:00:18,030
+我假装很投入  而你们则尽可能大声的笑  这样一来
+is me to pretend to come on stage and you cheer as loudly as you can, so, when
+
+9
+00:00:18,030 --> 00:00:21,270
+当我回到家的时候  他们就会觉得每个人都很喜欢他老爹我
+I come home, they think everyone loves their daddy.
+
+10
+00:00:21,270 --> 00:00:24,260
+我马上就要翻到幻灯片首页  然后开始激情演讲
+I'm going to run up on the title slide, and run up on to the stage.
+
+11
+00:00:24,260 --> 00:00:30,869
+开始大笑吧  能多大声就多大声
+As loud as you can will be great.
+
+12
+00:00:30,869 --> 00:00:32,529
+谢谢
+Thank you!
+
+13
+00:00:32,529 --> 00:00:35,829
+请坐
+[CHEERING] . JEFF: Sit down!
+
+14
+00:00:35,829 --> 00:00:37,489
+请坐
+Sit down!
+
+15
+00:00:37,489 --> 00:00:39,831
+这真是远超我的期待
+I've got a lot to go over.
+
+16
+00:00:39,831 --> 00:00:40,831
+非常感谢
+Thank you so much.
+
+17
+00:00:40,831 --> 00:00:42,420
+能来这里真是太好了
+It's great to be here.
+
+18
+00:00:42,420 --> 00:00:45,609
+朋友们  开始吧  我这次要讲的很多
+Guys, come on, I've got a lot to cover!
+
+19
+00:00:45,609 --> 00:00:52,149
+我是 Jeff Cross  头衔是 Angular 移动技术组的 Tech Lead
+So, I'm Jeff Cross, the tech lead of the mobile team on Angular, and as the title says,
+
+20
+00:00:52,149 --> 00:00:55,999
+我大概是这次大会中最值得信任的人了
+I'm probably the most trustworthy person here at the conference.
+
+21
+00:00:55,999 --> 00:00:58,190
+如果你这次只打算听一个演讲
+If you're going to one talk the whole time, this is
+
+22
+00:00:58,190 --> 00:00:59,679
+这一个可能是最好的
+probably the best one to be at!
+
+23
+00:00:59,679 --> 00:01:01,469
+今天你实际上能用一场演讲的钱听两场
+You actually get two talks for the price of one today,
+
+24
+00:01:01,469 --> 00:01:06,640
+因为我的同事 Alex Rickabaugh 将会在我的演讲结束之后再讲一场
+because my colleague, Alex Rickabaugh, is going to give a talk right after mine.
+
+25
+00:01:06,640 --> 00:01:10,940
+Alex 和我就像是超级男孩乐队  我们一起合作  
+Alex and me are like the band Nsync where we collaborate
+
+26
+00:01:10,940 --> 00:01:15,720
+一起出专辑  但有时我们也独自做项目
+together and make albums together, but once in a while, we make solo
+
+27
+00:01:15,720 --> 00:01:16,720
+projects.
+
+28
+00:01:16,720 --> 00:01:20,410
+我就是 Justin Timberlake （超级男孩乐队的队长）
+I'm Justin Timberlake.
+
+29
+00:01:20,410 --> 00:01:27,980
+我们一回去就会制作酷炫的移动应用
+We will be getting back to work to make mobile awesome.
+
+30
+00:01:27,980 --> 00:01:32,440
+我这次的目标就是传授你一些知识  让你自己决定你的移动应用该选用
+My goal is to equip you with the knowledge so that you can decide a mobile
+
+31
+00:01:32,440 --> 00:01:37,010
+何种策略   这就像挑选工具  为正式的应用而不是为自家的玩具应用
+strategy for your applications, like clicking the tools - picking the tools and strategies
+
+32
+00:01:37,010 --> 00:01:41,460
+而选取工具和策略
+to use for serious applications, not the toy apps you build at home.
+
+33
+00:01:41,460 --> 00:01:44,310
+Alex 会讲述制作大多数移动 Web 方面的开发经验
+Alex is going to talk about making the most of your mobile
+
+34
+00:01:44,310 --> 00:01:46,480
+web experience.
+
+35
+00:01:46,480 --> 00:01:47,760
+我一共有 20 分钟
+I've got 20 minutes.
+
+36
+00:01:47,760 --> 00:01:49,760
+我们要怎样才能填满这 20 分钟呢？
+What can we fit in 20 minutes?
+
+37
+00:01:49,760 --> 00:01:53,880
+我想我们可以评估并比较每一个工具、库以及
+I think we can evaluate and compare every tool, library and
+
+38
+00:01:53,880 --> 00:01:59,900
+移动开发方面的理念  或者  偏实践一点  我们可以聚焦于和Angular有关的那些细节
+idea in the mobile landscape, or, maybe to be practical, we can focus on the pieces that
+
+39
+00:01:59,900 --> 00:02:04,050
+也就是点评Angular所集成的具体工具
+pertain to Angular, so - Angular looking at tools that are specifically integrated with
+
+40
+00:02:04,050 --> 00:02:10,379
+这样我就能讲得更快一点儿  我将会
+- I'm going to be talking fast, I'm going to
+
+41
+00:02:10,379 --> 00:02:12,879
+共享这些幻灯片  它们当中包含了大部分信息
+share the slides, they've got lots of information inside.
+
+42
+00:02:12,879 --> 00:02:16,660
+即使你错过了  以后也能靠它们追上来
+If you get lost, you'll catch up later.
+
+43
+00:02:16,660 --> 00:02:20,489
+我们先来看看一些移动技术爱好者  他们远比我们
+Let's take a look at some of the mobile enthusiasts who go on and on about their
+
+44
+00:02:20,489 --> 00:02:25,379
+更关心这些工具
+tools way longer than any of us care to hear about them.
+
+45
+00:02:25,379 --> 00:02:41,799
+公平起见  我们先从 Angular 移动技术组开始
+To be fair, we will start with the Angular Mobile Team.
+
+46
+00:02:41,799 --> 00:02:43,299
+对渐进式 Web 应用  我们讲了很多
+>> We talk a lot about progressive web apps.
+
+47
+00:02:43,299 --> 00:02:51,840
+我们在构建这些渐进式 Web 应用方面投入了很多时间
+It's where we spend a lot of our time is building these progressive web apps.
+
+48
+00:02:51,840 --> 00:02:53,930
+这种思路可以让构建出的 Web 应用具有与
+It's just a way of thinking about building web apps
+
+49
+00:02:53,930 --> 00:02:58,540
+原生应用相似的操作感和行为
+to feel like installed native applications to have the same kind of feel and behaviour,
+
+50
+00:02:58,540 --> 00:03:03,370
+可以安装到首屏  可以离线工作  可以立即工作  等等
+installing the home screen, working offline, working instantly, those kind of things.
+
+51
+00:03:03,370 --> 00:03:06,090
+对渐进式 Web 应用  我们谈论了那么多  但问题在于
+So we talk a lot about it, and the question is
+
+52
+00:03:06,090 --> 00:03:08,299
+在目前的技术条件下  它是现实的应用构建方案吗？
+it the one true way to build applications today?
+
+53
+00:03:08,299 --> 00:03:11,680
+你能放下构建应用时所考虑的一切吗？
+Can you drop everything you thought about building applications?
+
+54
+00:03:11,680 --> 00:03:13,829
+能单独构建渐进式 Web 应用吗？
+Can just build progressive web apps?
+
+55
+00:03:13,829 --> 00:03:15,510
+我们稍后再探讨它
+We will look into that later.
+
+56
+00:03:15,510 --> 00:03:20,159
+首先  我们看看另一些爱好者
+First, let's look at some other enthusiasts.
+
+57
+00:03:20,159 --> 00:03:26,779
+[Audio played].
+
+58
+00:03:26,779 --> 00:03:29,569
+Adam 是一个 Ionic 开发者
+Adam is a developer on Ionic as you can from the five
+
+59
+00:03:29,569 --> 00:03:31,560
+你从他五次谈到 Ionic 就能看出来
+times he said it.
+
+60
+00:03:31,560 --> 00:03:33,569
+也许每个人都听说过 Ionic
+Everyone has heard of Ionic, probably.
+
+61
+00:03:33,569 --> 00:03:38,930
+它是构建于 Cordova 之上的一个混合式（Hybrid）应用方案
+It's a cool hybrid thing built on Cordoba.
+
+62
+00:03:38,930 --> 00:03:46,109
+你可以把它们装在手机上  为其添加原生特性  这样一来  它既有
+You can put them on phones, add native features, while having a nice
+
+63
+00:03:46,109 --> 00:03:51,560
+良好的用户体验又能与 Web 应用共享代码以及复用你的 Web 开发技能
+experience and sharing code with web apps and using your web app skills.
+
+64
+00:03:51,560 --> 00:03:53,760
+于是我们得到了一个渐进式Web应用
+We've got progressive web apps.
+
+65
+00:03:53,760 --> 00:04:00,409
+还有什么别的方式？
+What else do we have?
+
+66
+00:04:00,409 --> 00:04:03,069
+[Audio played].
+
+67
+00:04:03,069 --> 00:04:05,090
+还有一个产品  名叫 Native Script
+So there is a product called native script.
+
+68
+00:04:05,090 --> 00:04:06,090
+如你所见
+As you saw there.
+
+69
+00:04:06,090 --> 00:04:14,870
+Luke Luke Luke NativeScript 是另一种截然不同的方式[#TODO]
+Luke Luke Luke will be native script is a kind of different approach.
+
+70
+00:04:14,870 --> 00:04:18,510
+和 Cordova 不同  这并不是 Hybrid 技术  不过你照样可以写
+It's not hybrid in the same sense as Cordova but you to get to write
+
+71
+00:04:18,510 --> 00:04:27,690
+JavaScript 和 TypeScript 运行时也像个应用程序，但它的UI是原生的
+JavaScript and TypeScript and it runs at the same time as the application but you have
+
+72
+00:04:27,690 --> 00:04:33,720
+具备硬件访问能力  平滑的滚屏  以及大量缓动效果等
+native UI, with hardware acceleration, nice smooth scrolling, all that with a lot of ease.
+
+73
+00:04:33,720 --> 00:04:35,530
+于是  我们有了三个相互竞争的候选技术
+So we've got these three contenders.
+
+74
+00:04:35,530 --> 00:04:37,340
+嗯  你知道吗？
+And, you know what?
+
+75
+00:04:37,340 --> 00:04:39,640
+在特定的场景中并不一定要使用单一的策略
+No single strategy has to be used in isolation.
+
+76
+00:04:39,640 --> 00:04:44,670
+可能多数情况下会使用它们的某种组合  可能是 Web 和 NativeScript
+Probably most will be combined with something else, maybe web
+
+77
+00:04:44,670 --> 00:04:49,730
+也可能是 Web 和 Ionic
+and NativeScript, maybe web and Ionic.
+
+78
+00:04:49,730 --> 00:04:55,510
+我们要看看它们如何互相取长补短  
+We want to look at how they complement each other, what are the strengths and advantages
+
+79
+00:04:55,510 --> 00:04:58,290
+看看你所做的选择  其强项和优点何在
+are the different choices you might make?
+
+80
+00:04:58,290 --> 00:05:03,220
+所以  我们今天要问的问题是  我们需要一个 Web 应用吗？
+So the questions we want to answer today are: do I need a web app?
+
+81
+00:05:03,220 --> 00:05:06,380
+也就是说  我们要构建一个
+Is it strategically sound to have it built as a
+
+82
+00:05:06,380 --> 00:05:08,440
+没有原生组件的 Web 应用吗？
+web app with no native component?
+
+83
+00:05:08,440 --> 00:05:12,920
+如果理由不充分或不必要  那么我们是该用 Hybrid 还是 Native 
+If it is not sufficient or necessary, should I use hybrid
+
+84
+00:05:12,920 --> 00:05:18,030
+还是类似的工具？
+or native JavaScript or some tools like them?
+
+85
+00:05:18,030 --> 00:05:21,030
+我们来看看Angular大陆Mobile王国的南部[#TODO]
+Let's look and the South of mobile in Angular land.
+
+86
+00:05:21,030 --> 00:05:26,620
+我把这些分为四类：分发 —— 用户如何拿到你的应用；
+I've got four categories I've broken this down to: distribution, how users
+
+87
+00:05:26,620 --> 00:05:31,180
+能力 —— 有哪些API？在各种不同的方式下，你能或不能做到什么？
+get a hold of your app; capabilities - what are the APIs, the things you can and can't
+
+88
+00:05:31,180 --> 00:05:33,770
+do with different approaches?
+
+89
+00:05:33,770 --> 00:05:36,650
+性能 —— 在各种不同的方式下，性能的特征是怎样的？
+Performance, what are the performance characteristics of
+
+90
+00:05:36,650 --> 00:05:37,960
+different approaches?
+
+91
+00:05:37,960 --> 00:05:40,930
+生产率 —— 在使用不同工具时  你团队的开发效率如何？
+Productivity: how effective is your team going to be with different
+
+92
+00:05:40,930 --> 00:05:42,030
+tools?
+
+93
+00:05:42,030 --> 00:05:47,450
+先从分发开始讲起  用户要如何获得你的应用？
+Starting with distribution, how do users get your app?
+
+94
+00:05:47,450 --> 00:05:49,190
+可搜索性是一个很重要的因素
+Searchability is a big factor here.
+
+95
+00:05:49,190 --> 00:05:51,950
+用户如何通过搜索引擎或应用商店找到该应用？
+How do they find it in search engines and app stores?
+
+96
+00:05:51,950 --> 00:05:54,520
+可分享性  如何通过你的应用分享内容  或者
+Share-ability, how does content from your app get shared or
+
+97
+00:05:54,520 --> 00:05:56,760
+如何分享你的应用本身？ 
+how does your app itself get shared?
+
+98
+00:05:56,760 --> 00:05:57,890
+首次使用时的体验
+The first-use experience.
+
+99
+00:05:57,890 --> 00:06:01,220
+当用户听说了你的应用时  就会通过搜索引擎或其它什么地方来查找它
+When a user hears about your app, finds it in a search engine,
+
+100
+00:06:01,220 --> 00:06:05,480
+用户查找时能有多容易？以及  你的应用该如何升级？
+finds it somewhere else, how easily can they use it, and how does the updating of
+
+101
+00:06:05,480 --> 00:06:07,280
+your app occur?
+
+102
+00:06:07,280 --> 00:06:11,400
+要想获得可搜索性  用户该如何通过搜索引擎来发现这些内容？
+Getting into searchability, how do users discover the content via search
+
+103
+00:06:11,400 --> 00:06:12,400
+engines?
+
+104
+00:06:12,400 --> 00:06:17,550
+有趣的是：Alex和我所属的公司被称为Google，而这个公司
+There is an interesting fact: the company Alex and I work for is called
+
+105
+00:06:17,550 --> 00:06:22,650
+在1997年就已经存在了  在那里你可以在输入框中输入任何想找东西
+Google, and we have had this website since about 1997 where you can type in anything
+
+106
+00:06:22,650 --> 00:06:26,990
+然后Google就会试图在整个互联网上找到
+you want in a text field and it will look around the whole internet and try to find
+
+107
+00:06:26,990 --> 00:06:29,660
+你想要的内容
+content that matches what you want.
+
+108
+00:06:29,660 --> 00:06:31,970
+我们提供一些广告  而当用户点击广告这些时
+We have ads on it, and, when people click those
+
+109
+00:06:31,970 --> 00:06:33,440
+我们就能因此而赚到钱
+ads, we get money for it.
+
+110
+00:06:33,440 --> 00:06:36,440
+这也是我们资助Angular开发的方式
+This is how we fund Angular development.
+
+111
+00:06:36,440 --> 00:06:38,860
+Angular看起来像个伟大的项目  但是我们要
+Angular seems like this great project but we have to make
+
+112
+00:06:38,860 --> 00:06:41,750
+以某种方式赚到钱  我们的做法就是这样
+make money somehow and that's how we do.
+
+113
+00:06:41,750 --> 00:06:48,630
+人们查找应用、内容、新文章等等就是主流方式
+It's a big way that people find apps, content, news articles, whatever, and they've
+
+114
+00:06:48,630 --> 00:06:52,770
+他们通过抓取网站而获益  而最近几年则通过抓取JavaScript应用而获益
+gotten pretty good at crawling websites and in the last few years got good at crawling
+
+115
+00:06:52,770 --> 00:06:57,170
+JavaScript apps.
+
+116
+00:06:57,170 --> 00:07:00,160
+他们可以渲染它、抓取它并为它建立索引
+They can render it, crawl it, index it.
+
+117
+00:07:00,160 --> 00:07:02,950
+但是你的网站可能因为某种原因而难以被爬虫索引到
+But even if your site for whatever reason has a hard time being
+
+118
+00:07:02,950 --> 00:07:07,570
+还有些搜索引擎不支持这种高级抓取方式
+crawler-indexed, or some search engines just don't have advanced crawling, now with
+
+119
+00:07:07,570 --> 00:07:11,550
+现在  借助 Universal，Angular 2 具备了预先渲染（Prerender）的能力
+Angular 2 there is a capability of pre-rendering using Universal.
+
+120
+00:07:11,550 --> 00:07:16,491
+对于 Web 应用来说  可以轻松获得搜索引擎优化带来的优点
+The web apps are the most easy experience that take advantage of
+
+121
+00:07:16,491 --> 00:07:17,960
+search engine optimisation.
+
+122
+00:07:17,960 --> 00:07:22,200
+借助 Universal 你可以弥补
+With universal, you eliminate the downsides before
+
+123
+00:07:22,200 --> 00:07:25,690
+在搜索引擎优化方面的缺点
+you have search-engine optimisation.
+
+124
+00:07:25,690 --> 00:07:28,760
+Hybrid 和 Native 应用中的内容都可以被 Google 搜索到
+Hybrid and native app content can appear in Google search.
+
+125
+00:07:28,760 --> 00:07:33,760
+你可以给 Google 一些提示来告诉它如何链接到你的内容
+You can give Google hints about links to your content, and they can
+
+126
+00:07:33,760 --> 00:07:36,550
+然后它就可以在你的 Android 原生应用中打开并在 WebView 中显示这些内容
+open it in your native app and show it in the
+
+127
+00:07:36,550 --> 00:07:39,420
+web view on your Android phone.
+
+128
+00:07:39,420 --> 00:07:43,200
+问题在于  它只能由支持 URL 的 Web 应用来使用
+But the thing is, it has to be backed by a web app with URL.
+
+129
+00:07:43,200 --> 00:07:46,950
+所以  你要把内容中的各个部分都告诉 Google “这块儿内容在我的原生应用中”
+So any piece of content that you have that you tell Google, "This piece of
+
+130
+00:07:46,950 --> 00:07:51,430
+所以你不得不为它在 Web 上提供一个后备网址（fallback URL）
+content is my native app", you have to have a fallback URL to go to on the web.
+
+131
+00:07:51,430 --> 00:07:56,110
+这也就是我们即将谈论的主要方案之一
+That's a big theme of the themes we are going to talk about.
+
+132
+00:07:56,110 --> 00:08:02,530
+指向原生应用的URL是进行索引和分享内容的关键所在
+URL with a native app are a key component to index and share content.
+
+133
+00:08:02,530 --> 00:08:05,610
+通过 Web 搜索不是唯一的途径
+Web search isn't the only game in town.
+
+134
+00:08:05,610 --> 00:08:07,620
+手机操作系统提供了操作层面的搜索功能
+Mobile operating systems provide operating-level
+
+135
+00:08:07,620 --> 00:08:15,130
+在那里  你可以搜索设备上或 Web 上的内容，并且提供了应用商店的搜索功能
+system search where you can search content on your device or on the web, and to provide
+
+136
+00:08:15,130 --> 00:08:17,560
+app store search.
+
+137
+00:08:17,560 --> 00:08:23,880
+而 Web 应用无法出现在对应用商店的搜索中
+With web apps, you cannot appear in app store search.
+
+138
+00:08:23,880 --> 00:08:26,010
+但如果你有一个渐进式 Web 应用 你就能把它安装在手机的首屏
+If I have a progressive web app, maybe installed on
+
+139
+00:08:26,010 --> 00:08:33,060
+而 iPhone 和 Android 的应用商店中无论何时都不会出现它们
+my home screen and all that, and the iPhone and Android app store don't show those
+
+140
+00:08:33,060 --> 00:08:36,510
+apps for whatever reasons.
+
+141
+00:08:36,510 --> 00:08:39,370
+不过  公开的 Web 应用的内容也可以出现在你的原生操作系统搜索中
+Public web app content may appear in your native operating
+
+142
+00:08:39,370 --> 00:08:41,500
+system search, though.
+
+143
+00:08:41,500 --> 00:08:50,500
+我可以在自己的设备上搜索 AngularJS 而下方的播客列表中会描述内容的来源
+I can search for my device, Angular JS, podcasts below that it
+
+144
+00:08:50,500 --> 00:08:52,780
+describes content from.
+
+145
+00:08:52,780 --> 00:08:56,680
+所以  你可能想要在原生JavaScript应用中嵌入Hybrid内容 比如
+So, you might need a hybrid for a native JavaScript app if your
+
+146
+00:08:56,680 --> 00:09:01,060
+用户期待在应用商店的搜索中看到这些内容  或者  他们希望使用原生的搜索功能找到你应用中的私有内容
+users expect to see you in the app store search or if they want to see your app's private
+
+147
+00:09:01,060 --> 00:09:02,590
+content using native search.
+
+148
+00:09:02,590 --> 00:09:05,720
+如果有一个 Web 应用  你的公开内容就能显示在
+If you have a web app, your content can show up in a
+
+149
+00:09:05,720 --> 00:09:10,090
+原生搜索中  但是只有当你安装了一个原生应用时，才能看到你的私有内容
+native search but your private content can only show up if you're installed in a native
+
+150
+00:09:10,090 --> 00:09:11,250
+app.
+
+151
+00:09:11,250 --> 00:09:16,080
+总而言之  可搜索性就是  如果你的应用及其内容应该被主流搜索引擎发现
+In summary of searchability, if your app and its content should be discovered in
+
+152
+00:09:16,080 --> 00:09:21,040
+它就必须支持 Web 爬虫选项
+major search engines, there must be a crawler web option.
+
+153
+00:09:21,040 --> 00:09:25,650
+如果它要出现在应用商店中，它就必须有一个原生版本的应用
+If it is in app stores, there must be a native version of the app.
+
+154
+00:09:25,650 --> 00:09:30,950
+如果私有内容需要能在操作系统层面被发现
+If the private content is discoverable by operating-level system search, there must
+
+155
+00:09:30,950 --> 00:09:34,670
+它就必须被安装成一个原生或Hybrid版本的应用
+be a native or hybrid version of the app installed.
+
+156
+00:09:34,670 --> 00:09:38,130
+可分享性：用户要共享你的内容有多容易？
+Shareability: how easily do users share your content?
+
+157
+00:09:38,130 --> 00:09:40,880
+我们先让 Web 支持它
+Let's apply this to web first.
+
+158
+00:09:40,880 --> 00:09:43,240
+如果我要分享照片、内容或别的什么
+If I want to share a photo, content, anything,
+
+159
+00:09:43,240 --> 00:09:47,940
+那就需要开发者给用户指出该如何以及在哪里共享它
+it is up to me as a developer to figure out how and where the user can share that.
+
+160
+00:09:47,940 --> 00:09:51,230
+很多次  如果想要从设备上获取照片
+A lot of times, if I want to get a photo from the
+
+161
+00:09:51,230 --> 00:09:55,710
+我就要得到一个输入文件  而用户则不得不从文件系统中去选取照片
+device, I will have a file input, and they'll have to select a photo from the file system.
+
+162
+00:09:55,710 --> 00:10:00,400
+这就是因为没有集成原生的gallery（画廊）API或其它API导致的
+There's no integration with the native gallery or other APIs.
+
+163
+00:10:00,400 --> 00:10:05,230
+目前  我没有办法让用户做到：我有内容、然后通过原生的共享机制取到它
+There is no way for me to say I have the content, now, what the operating
+
+164
+00:10:05,230 --> 00:10:08,950
+再共享到任何地方
+native sharing mechanism take over and share it to wherever they have, it is
+
+165
+00:10:08,950 --> 00:10:19,490
+我们只能使用 Web API  所以这个过程不太顺畅 —— 要使用Twilio发送一个文本消息
+up to me to work directly with web APIs, so send a text message with Twilio, it is a little
+
+166
+00:10:19,490 --> 00:10:25,529
+为此  用户还要提供一些认证信息
+bit more friction, the user has to provide some authentication for those kind of things,
+
+167
+00:10:25,529 --> 00:10:26,900
+这种体验可不怎么好
+so it is not a nice experience.
+
+168
+00:10:26,900 --> 00:10:28,330
+这个问题正在得到解决
+This is being worked on.
+
+169
+00:10:28,330 --> 00:10:31,521
+Chrome 开发组的某些人正在制定从 Web 应用中
+Someone on the Chrome team is working on speccing, being able to share
+
+170
+00:10:31,521 --> 00:10:34,770
+共享的规范
+from a web app.
+
+171
+00:10:34,770 --> 00:10:39,840
+处理各种文档的应用可以遵循此规范
+Apps that handle that kind of document can take it.
+
+172
+00:10:39,840 --> 00:10:45,010
+另一种实现方式是让开发人员选择如何分享以及
+Another way to put is it is the developer chooses how and
+
+173
+00:10:45,010 --> 00:10:52,250
+分享到哪里  但对于原生内容  则只有那些安装了相关应用的用户
+where they can share, and whereas on Native, it's up to the user to install apps
+
+174
+00:10:52,250 --> 00:10:54,690
+才能处理这些分享内容
+that can handle sharing content.
+
+175
+00:10:54,690 --> 00:10:59,740
+而问题的另一面在于 Web 应用能处理来自
+So, the other side of it is can a web app handle the shares
+
+176
+00:10:59,740 --> 00:11:00,740
+其它应用的分享吗？
+that come from other apps?
+
+177
+00:11:00,740 --> 00:11:02,670
+目前还没有任何方式能做到
+There is no way to do that right now.
+
+178
+00:11:02,670 --> 00:11:04,750
+如果我要从我的图库应用中分享点什么
+If I want to share something from my photo app there's no
+
+179
+00:11:04,750 --> 00:11:10,370
+那么对于 Web 应用来说  没办法显示在底部  因此也就没办法选择
+way for a just a web app to show up in the bottom part, the part where I select where
+
+180
+00:11:10,370 --> 00:11:11,950
+并分享它
+to share it to.
+
+181
+00:11:11,950 --> 00:11:16,670
+还有一些其它的办法为该应用填补这些缺点
+But that is also being worked on as part of the complement to the same
+
+182
+00:11:16,670 --> 00:11:22,339
+只要把该应用注册成分享器就行了。
+app I'm talking about where apps with be registered to add sharing intense.
+
+183
+00:11:22,339 --> 00:11:24,060
+我们来看看其它方面，并审视下Hybrid应用和
+Let's take a look at the other side and look at hybrid
+
+184
+00:11:24,060 --> 00:11:27,620
+原生JavaScript应用
+and native JavaScript apps.
+
+185
+00:11:27,620 --> 00:11:29,430
+你得到了 Web 所擅长的可伸缩性  也能做到 Web 所能做的一切
+You've got the flexibility of the web, you can do everything
+
+186
+00:11:29,430 --> 00:11:33,839
+但同时你还有原生操作系统的支持  于是你可以
+you can do with web, but you have the native operating system support, so you can
+
+187
+00:11:33,839 --> 00:11:38,920
+推迟提供这种操作方式  用另一种方式达到分享这些内容的目的
+defer to what the operating provides, in terms of share targets for content.
+
+188
+00:11:38,920 --> 00:11:42,300
+Ionic的插件和NativeScript能让你
+And plugins for Ionic, and NativeScript make this
+
+189
+00:11:42,300 --> 00:11:46,440
+轻松实现共享  只需要通过少量配置  付出很小的努力就能实现
+easy to share with little effort and little configuration.
+
+190
+00:11:46,440 --> 00:11:49,960
+它们还能处理来自其它应用的分享
+They can also handle shares from other applications.
+
+191
+00:11:49,960 --> 00:11:56,130
+你只要声明了自己的应用能处理共享内容
+You can declare your app is able to share content, and they can
+
+192
+00:11:56,130 --> 00:12:01,340
+他们就能共享给你的应用  而你可以用任何自己喜欢的方式处理它  
+share your app and you can handle it however you like.
+
+193
+00:12:01,340 --> 00:12:05,850
+总结一下  Web 应用目前受限于通过 Web API进行共享
+To summarise, web app is currently limited to sharing with web APIs,
+
+194
+00:12:05,850 --> 00:12:10,960
+而且你没办法处理来自其它应用的共享内容  而原生应用可以整合到操作系统级的共享机制中
+and you can't handle shares from other applications, and native can handle OS-level
+
+195
+00:12:10,960 --> 00:12:12,370
+share integration.
+
+196
+00:12:12,370 --> 00:12:15,340
+如果该功能对你很重要  那么你就需要往自己的实现策略中添加
+If that is important to you, then you will need some kind of a native
+
+197
+00:12:15,340 --> 00:12:18,660
+某种原生成分
+component to your strategy.
+
+198
+00:12:18,660 --> 00:12:20,430
+首次使用时的可体验性
+First-use experience-ability.
+
+199
+00:12:20,430 --> 00:12:23,770
+用户是如何得到你的应用和内容的？
+How does the user get your app and content?
+
+200
+00:12:23,770 --> 00:12:27,500
+显然  用户能越快开始使用你的应用  这种体验就越好
+The faster the user can start using your app, the better.
+
+201
+00:12:27,500 --> 00:12:31,040
+谁有问题没？
+I don't know if anyone address with that?
+
+202
+00:12:31,040 --> 00:12:32,040
+好  继续
+Okay.
+
+203
+00:12:32,040 --> 00:12:35,070
+如果  点击搜索引擎返回的一条结果  并且立刻看到了餐馆的评价
+So, clicking a search engine result and immediately seeing a restaurant review is
+
+204
+00:12:35,070 --> 00:12:38,210
+肯定会比先点击一个链接  然后再安装一个应用  才能看到评价要好一些
+better than clicking a link and then installing an app to see a review.
+
+205
+00:12:38,210 --> 00:12:39,210
+后面这些步骤简直是反人类
+It is a dig on Yelp.
+
+206
+00:12:39,210 --> 00:12:41,790
+我不知道会不会有人喜欢这样
+I don't know if they are popular here.
+
+207
+00:12:41,790 --> 00:12:45,370
+他们总是在一个劲的劝我安装原生应用
+They are always nudging me to install the native application.
+
+208
+00:12:45,370 --> 00:12:49,949
+我不得不跳过其它事情  先安装上这个原生应用
+I have to scroll through things to get through the native web app.
+
+209
+00:12:49,949 --> 00:12:55,860
+“安装”这个需求在用户想使用你的应用时凭空增加了很大的阻力
+Installation requirements adds friction to the process of users using your app.
+
+210
+00:12:55,860 --> 00:12:58,680
+这些阻力导致了中途放弃  而
+Friction turns out to be abandonment, and the abandonment
+
+211
+00:12:58,680 --> 00:13:00,300
+中途放弃总是很糟糕的
+is usually pretty bad.
+
+212
+00:13:00,300 --> 00:13:02,980
+比如这个例子
+For this example, actually, with the -- for this example,
+
+213
+00:13:02,980 --> 00:13:07,310
+Google+的手机应用  当用户拥有这个应用时  他们能显示并点击链接
+the Google Plus app, when they have this mobile app that people would show up
+
+214
+00:13:07,310 --> 00:13:12,149
+当显示在屏幕上时  你和共享的内容之间隔着一大堆事情
+to and click links, they had a giant thing that showed up on the screen between you and
+
+215
+00:13:12,149 --> 00:13:15,520
+他们给了你一个链接好让你去访问一个移动站点  但是就因为这个页面的存在
+the content, and they have a link where you can visit the mobile site, but they
+
+216
+00:13:15,520 --> 00:13:26,330
+有69%的用户中途放弃了！
+had a 69% abandonment rate with this page just by having this here.
+
+217
+00:13:26,330 --> 00:13:28,410
+或许  你可能觉得中途放弃也无所谓
+Abandonment might not matter to your app.
+
+218
+00:13:28,410 --> 00:13:30,480
+用户流失也无所谓
+People leaving might not matter.
+
+219
+00:13:30,480 --> 00:13:33,800
+还有一些合理的情况  你也无所谓
+There are some legitimate cases where you may not care.
+
+220
+00:13:33,800 --> 00:13:38,690
+如果你的原生应用不得不是原生的  你甚至不会从 Web 上的体验方面受到阻碍
+Like if your native app is you have to be native, you can't even get a fraction of the
+
+221
+00:13:38,690 --> 00:13:42,790
+那么需要安装可能也不是坏事  或者可能你只需要面对
+experience on web, then maybe installation isn't such a bad things, or maybe you've
+
+222
+00:13:42,790 --> 00:13:47,500
+少量内部用户  他们可以安装一次然后使用好几年
+got a small internal app user base, something they will install once and use for years.
+
+223
+00:13:47,500 --> 00:13:51,910
+如果在一个每天处理大量快速信息交流的新闻站或点评站上
+You don't care about the installation friction so much as a news site or a review site
+
+224
+00:13:51,910 --> 00:13:56,940
+你可能也不用在乎安装带来的这些阻碍
+where you're handling lots of traffic every day for people wanting quick information.
+
+225
+00:13:56,940 --> 00:14:01,820
+所以  决定是否需要安装  需要经过深思熟虑
+So the force to pressure installation needs strong consideration.
+
+226
+00:14:01,820 --> 00:14:03,750
+你应该已经思考过这个问题了吧
+You should really give some thought to this.
+
+227
+00:14:03,750 --> 00:14:07,580
+要考虑它如何冲击我们的底线  并且看看你是否能
+Think about how it impacts your bottom line and figure out if you
+
+228
+00:14:07,580 --> 00:14:13,810
+轻松的通过移动应用提供更多价值  能否
+can ease that a little bit better, provide for value in your mobile app, ease the amount
+
+229
+00:14:13,810 --> 00:14:15,610
+让你轻松给用户大量的暗示
+of hints you give to them.
+
+230
+00:14:15,610 --> 00:14:19,880
+Android引入了一些有趣的东西  称为Android原生应用
+Android's introduced something interesting called Android
+
+231
+00:14:19,880 --> 00:14:24,050
+通过它  用户可以直接从 Web 访问你的应用而不必先安装它
+native apps, where you can access from the web without installing your app yet.
+
+232
+00:14:24,050 --> 00:14:26,362
+这会鼓励用户稍后安装此应用
+It may encourage the user to install the app after
+
+233
+00:14:26,362 --> 00:14:31,709
+这很棒  稍后我们在讲Ionic和NativeScript时会看到
+that point, and this is exciting, and I would like to see more integration of this with
+
+234
+00:14:31,709 --> 00:14:37,040
+更多的集成方式
+Ionic and NativeScript.
+
+235
+00:14:37,040 --> 00:14:38,930
+和你的用户在一起
+Be where your users are.
+
+236
+00:14:38,930 --> 00:14:41,410
+移除用户和内容之间的障碍
+Remove the obstacles between users and their content.
+
+237
+00:14:41,410 --> 00:14:45,450
+尽可能主动出击  并且通过优雅的提示
+Get out of the way as much as you can, and give tasteful hints to
+
+238
+00:14:45,450 --> 00:14:48,060
+让用户了解到你这个可安装的应用
+let users know about your installable apps.
+
+239
+00:14:48,060 --> 00:14:53,120
+渐进式应用（PWA）就是一个很好的例子
+Progressive web apps are a good examples of this.
+
+240
+00:14:53,120 --> 00:14:55,790
+在用户使用了它们一会儿之后  它们将在屏幕上给出一个提示
+After the user has been using them for a while, they will give a hint on the
+
+241
+00:14:55,790 --> 00:14:57,850
+“看来你喜欢这个应用
+screen saying, "You maybe like this app.
+
+242
+00:14:57,850 --> 00:14:59,500
+你可以把它安装到首屏”
+You may want to install it to your home screen."
+
+243
+00:14:59,500 --> 00:15:02,480
+它不是原生应用  从那一刻开始  用户不用打开浏览器
+It is not a native app but they can watch it
+
+244
+00:15:02,480 --> 00:15:06,030
+就能看到它
+from that point but not turned on.
+
+245
+00:15:06,030 --> 00:15:11,500
+最后一部分我们讲下分发：可升级性 —— 你如何把应用给到用户？
+The last part of distribution: update-ability - how do you get the apps to your users?
+
+246
+00:15:11,500 --> 00:15:14,450
+这是用户体验中最关键的部分
+This is pretty critical to user experience.
+
+247
+00:15:14,450 --> 00:15:22,980
+如果你的升级过程 —— 如果在你添加新特性或者修改原有的东西之后很久用户才能拿到
+If your update process - if the time between you adding features or fixing things is delayed
+
+248
+00:15:22,980 --> 00:15:27,360
+那他们就没法快速访问到这些特性  或是
+getting to users, then they don't get access on their features quickly enough, or
+
+249
+00:15:27,360 --> 00:15:33,050
+那些安全补丁  那些关键的性能提升等等  所以  要作出决策就要考虑好
+security fixes, or critical performance improvements, so choosing your strategy based
+
+250
+00:15:33,050 --> 00:15:36,870
+你该怎么做才能弥补这段时间的损失
+on how you can do this is worth some time.
+
+251
+00:15:36,870 --> 00:15:41,450
+所以  在 Web 上  标准的流程是你作为开发人员把某些东西上传到服务器上
+So, on the web, the standard process is you upload something as a developer to
+
+252
+00:15:41,450 --> 00:15:44,201
+而用户只需要刷新一下  就能得到这些
+your server, and the user just refreshes, and they've got it.
+
+253
+00:15:44,201 --> 00:15:46,140
+这样不错
+That's not bad.
+
+254
+00:15:46,140 --> 00:15:49,700
+
+They get it after everything loads, but even with service-worker
+
+255
+00:15:49,700 --> 00:15:52,540
+now, you can do more advanced loading and the background.
+
+256
+00:15:52,540 --> 00:15:57,060
+The server can say I've got updates, will push them down
+
+257
+00:15:57,060 --> 00:15:58,310
+service-worker.
+
+258
+00:15:58,310 --> 00:16:04,130
+So the next time the user opens the app, you can reload the app with
+
+259
+00:16:04,130 --> 00:16:07,220
+all the new content without having to fetch anything over the network, so you get kind
+
+260
+00:16:07,220 --> 00:16:12,080
+of a native-like experience with that, but you're still getting fresh content and fresh
+
+261
+00:16:12,080 --> 00:16:14,580
+fixes, and features for the user.
+
+262
+00:16:14,580 --> 00:16:17,850
+So let's look at hybrid and native just, how their update
+
+263
+00:16:17,850 --> 00:16:19,270
+process works.
+
+264
+00:16:19,270 --> 00:16:23,880
+If you change anything with your apps in binary, or any native features,
+
+265
+00:16:23,880 --> 00:16:25,890
+you have to republish to app stores.
+
+266
+00:16:25,890 --> 00:16:28,460
+This can halt the process because, with ios, you've
+
+267
+00:16:28,460 --> 00:16:31,990
+got to go - with with iOS, you've got to go through approval and review.
+
+268
+00:16:31,990 --> 00:16:40,180
+Even with manual, you've got to get - you may have to
+
+269
+00:16:40,180 --> 00:16:41,180
+wait for the user.
+
+270
+00:16:41,180 --> 00:16:43,600
+They may not know they need to update the app manually.
+
+271
+00:16:43,600 --> 00:16:46,170
+In hybrid apps, they need to be republished if the
+
+272
+00:16:46,170 --> 00:16:49,370
+native features have changed or embedded content has changed.
+
+273
+00:16:49,370 --> 00:16:52,430
+It's an advantage with hybrid apps that you can have a lot of
+
+274
+00:16:52,430 --> 00:16:57,581
+your content just be remotely loaded in web views, so, if you can change that con tent
+
+275
+00:16:57,581 --> 00:17:01,709
+- you can change that content as much as you want, and what ships in the device is
+
+276
+00:17:01,709 --> 00:17:07,670
+not changing, not adding new native plugins or changing the skin loaded on the device,
+
+277
+00:17:07,670 --> 00:17:14,870
+then you don't have to push to the app stores until you add native features, and
+
+278
+00:17:14,870 --> 00:17:20,770
+I know NativeScript is working update-ability to do that as well.
+
+279
+00:17:20,770 --> 00:17:28,140
+Summary: Web provides a path - hybrid and native JavaScript have
+
+280
+00:17:28,140 --> 00:17:31,610
+potentially longer turnaround because of app store review.
+
+281
+00:17:31,610 --> 00:17:35,280
+Delays in automatic updating had potential need for user approval.
+
+282
+00:17:35,280 --> 00:17:39,120
+So, having covered the distribution, we enough move on to the next major section which
+
+283
+00:17:39,120 --> 00:17:41,150
+is capabilities.
+
+284
+00:17:41,150 --> 00:17:44,290
+What I'm going to cover here are APIs that are available in
+
+285
+00:17:44,290 --> 00:17:48,780
+native or web, and kind of looking at the discrepancies between what you can do in what
+
+286
+00:17:48,780 --> 00:17:49,960
+places.
+
+287
+00:17:49,960 --> 00:17:54,170
+I'm looking at it as binary that you can or can't do things on the web but
+
+288
+00:17:54,170 --> 00:17:59,060
+it is actually more nuanced than that, and, I encourage you to look some more if there
+
+289
+00:17:59,060 --> 00:18:07,150
+are APIs that you care about, which may be much better on native, much better on the
+
+290
+00:18:07,150 --> 00:18:15,460
+web in hybrid and native apps have access that others don't yet.
+
+291
+00:18:15,460 --> 00:18:20,330
+These may be worked on and are in experimental branches of browsers.
+
+292
+00:18:20,330 --> 00:18:27,790
+Let's look at APIs of note, going to talk about Chrome, and Safari.
+
+293
+00:18:27,790 --> 00:18:35,330
+If you're familiar with - Chrome is limited by Safari because Chrome uses a web
+
+294
+00:18:35,330 --> 00:18:42,299
+view that the operating system provides which is the same is it Safari more or less.
+
+295
+00:18:42,299 --> 00:18:47,620
+I've got the nine categories we will dive into.
+
+296
+00:18:47,620 --> 00:18:49,960
+Starting with native behaviours.
+
+297
+00:18:49,960 --> 00:18:52,220
+Look at these later on the slides because I won't review
+
+298
+00:18:52,220 --> 00:18:53,570
+them in detail.
+
+299
+00:18:53,570 --> 00:18:55,750
+Do I get notifications?
+
+300
+00:18:55,750 --> 00:18:57,350
+Can I know if I'm in the foreground?
+
+301
+00:18:57,350 --> 00:18:59,250
+Can I set permissions for the app?
+
+302
+00:18:59,250 --> 00:19:03,350
+The short story of this is for iOS web, there is no push notifications
+
+303
+00:19:03,350 --> 00:19:05,770
+yet and there's no indication when there will be.
+
+304
+00:19:05,770 --> 00:19:08,990
+This depends on them implementing service worker to the spec, which
+
+305
+00:19:08,990 --> 00:19:12,170
+there are some indications they have started but they haven't publicly stated that they
+
+306
+00:19:12,170 --> 00:19:15,210
+have started on implementing service-worker.
+
+307
+00:19:15,210 --> 00:19:18,070
+Then you've got surroundings like how can I interact with the world around me?
+
+308
+00:19:18,070 --> 00:19:19,420
+Bluetooth and NFC.
+
+309
+00:19:19,420 --> 00:19:23,110
+The short story is Bluetooth and Chrome is coming soon.
+
+310
+00:19:23,110 --> 00:19:28,460
+This may be spoke about at the conference, I'm not sure.
+
+311
+00:19:28,460 --> 00:19:31,150
+But iOS doesn't have any web time line, so this is specced.
+
+312
+00:19:31,150 --> 00:19:37,549
+Chrome has as an experiment, and you can play with that today.
+
+313
+00:19:37,549 --> 00:19:42,250
+Then device features like knowing the network info, battery state, am I online?
+
+314
+00:19:42,250 --> 00:19:45,210
+Being able to control the vibration motor.
+
+315
+00:19:45,210 --> 00:19:50,510
+Short story is: battery network are not availability on iOS web.
+
+316
+00:19:50,510 --> 00:19:53,980
+Are you seeing a pattern!
+
+317
+00:19:53,980 --> 00:19:55,020
+Android and Chrome.
+
+318
+00:19:55,020 --> 00:19:57,230
+And also worth noting, most other browsers on Android
+
+319
+00:19:57,230 --> 00:20:00,160
+tend to be ahead of the game, too.
+
+320
+00:20:00,160 --> 00:20:02,370
+Like they have support for Service Workers, push
+
+321
+00:20:02,370 --> 00:20:08,090
+notifications, and install a home screen, so you know I'm focusing on Chrome in these.
+
+322
+00:20:08,090 --> 00:20:12,669
+Getting to seamless experience like how easily do I open the app, does it feel like
+
+323
+00:20:12,669 --> 00:20:13,669
+native?
+
+324
+00:20:13,669 --> 00:20:15,900
+Does it have an offline mode?
+
+325
+00:20:15,900 --> 00:20:17,230
+Having home screen installation, so I can launch
+
+326
+00:20:17,230 --> 00:20:20,910
+from the home screen, being able to sync things in the background, being able to
+
+327
+00:20:20,910 --> 00:20:22,460
+communicate with other apps.
+
+328
+00:20:22,460 --> 00:20:24,360
+The short story is that full offscreen and fullscreen are
+
+329
+00:20:24,360 --> 00:20:31,080
+possible everywhere, but with ioS web it's not ideal, hidden in obscure book marking
+
+330
+00:20:31,080 --> 00:20:36,160
+and meta tags, and that most users don't know enough about to take advantage of.
+
+331
+00:20:36,160 --> 00:20:41,860
+You can do home screen, and it depends on the application cache which has been
+
+332
+00:20:41,860 --> 00:20:47,820
+deprecated and, is pretty riddled with traps and dangers.
+
+333
+00:20:47,820 --> 00:20:51,500
+So then camera and microphone: this is being able to capture
+
+334
+00:20:51,500 --> 00:20:54,350
+video, doing real time calling and recording.
+
+335
+00:20:54,350 --> 00:20:59,960
+In Chrome, there is a lot of support coming soon that is experimental right now, but for
+
+336
+00:20:59,960 --> 00:21:06,400
+ioS web, no time when you are access these things.
+
+337
+00:21:06,400 --> 00:21:08,710
+Being able to check screen orientation and stop the screen from going
+
+338
+00:21:08,710 --> 00:21:09,720
+to sleep.
+
+339
+00:21:09,720 --> 00:21:21,290
+IOS web doesn't store this -- input, how do users interact with the device?
+
+340
+00:21:21,290 --> 00:21:23,970
+Touch gestures, speech recognition, which is
+
+341
+00:21:23,970 --> 00:21:29,070
+relatively new for web, clipboard access and fingerprint.
+
+342
+00:21:29,070 --> 00:21:30,860
+Touch support is everywhere,s that's great.
+
+343
+00:21:30,860 --> 00:21:33,900
+You can have touch events and use libraries that make those easy to work
+
+344
+00:21:33,900 --> 00:21:35,380
+with.
+
+345
+00:21:35,380 --> 00:21:42,820
+Fingerprint off is something that is pretty - fingerprint auth is available only on iOS
+
+346
+00:21:42,820 --> 00:21:43,820
+hybrid native.
+
+347
+00:21:43,820 --> 00:21:48,400
+I'm sure you could work with Android's.
+
+348
+00:21:48,400 --> 00:21:53,460
+There aren't plugins out the box right now that work with it.
+
+349
+00:21:53,460 --> 00:21:57,070
+And no timeline on when those will be availability in the web.
+
+350
+00:21:57,070 --> 00:22:01,840
+There is one category where iOS leads, I guess.
+
+351
+00:22:01,840 --> 00:22:10,080
+Knowing where the device is, when they leave and enter a place, and being
+
+352
+00:22:10,080 --> 00:22:17,460
+able to track device-motion events on the accelerometer, gyroscope, sensors individually.
+
+353
+00:22:17,460 --> 00:22:19,540
+Location - you can know the user's location.
+
+354
+00:22:19,540 --> 00:22:22,380
+Geofencing isn't available on the web.
+
+355
+00:22:22,380 --> 00:22:28,230
+You can hack it or just pull the user's location and check when they've entered a
+
+356
+00:22:28,230 --> 00:22:32,360
+certain area, but you can't say, "Let me know when the user has got to this area."
+
+357
+00:22:32,360 --> 00:22:33,420
+That's not natively supported.
+
+358
+00:22:33,420 --> 00:22:39,020
+Operating system: so being able to access being able
+
+359
+00:22:39,020 --> 00:22:47,140
+to access offline storage, file system, being able to access APIs like contacts and calendar.
+
+360
+00:22:47,140 --> 00:22:49,450
+Offline storage payments are available everywhere.
+
+361
+00:22:49,450 --> 00:22:54,299
+Safari go Chrome have different implementations, but you can pay with
+
+362
+00:22:54,299 --> 00:22:57,120
+your native payments integration.
+
+363
+00:22:57,120 --> 00:23:00,310
+And no contact or calendar access, and there is no
+
+364
+00:23:00,310 --> 00:23:04,070
+timeline or chatter I've seen of being able to work with these things directly.
+
+365
+00:23:04,070 --> 00:23:07,550
+You could use APIs, like if you're using Google apps,
+
+366
+00:23:07,550 --> 00:23:09,890
+access the calendar and contact through that.
+
+367
+00:23:09,890 --> 00:23:11,370
+Not ideal.
+
+368
+00:23:11,370 --> 00:23:12,669
+Going to the performance.
+
+369
+00:23:12,669 --> 00:23:17,070
+I've got a few things to say here, not a whole lot of depth.
+
+370
+00:23:17,070 --> 00:23:23,200
+60 frames per second, is achievable anywhere.
+
+371
+00:23:23,200 --> 00:23:26,830
+With the web, you can do it with hybrid, native.
+
+372
+00:23:26,830 --> 00:23:33,600
+Native UI tends to deliver the easiest experience to make this happen.
+
+373
+00:23:33,600 --> 00:23:39,120
+You can leverage them out the box and they tend to be better.
+
+374
+00:23:39,120 --> 00:23:41,039
+It's worth knowing that a bad performance is just as
+
+375
+00:23:41,039 --> 00:23:43,070
+easily accomplished on any platform.
+
+376
+00:23:43,070 --> 00:23:45,460
+If you as a developer are lazy and not thinking about
+
+377
+00:23:45,460 --> 00:23:51,390
+performance, you can make something really slow, and I've seen this in practice
+
+378
+00:23:51,390 --> 00:23:53,530
+too many times to recount.
+
+379
+00:23:53,530 --> 00:23:54,530
+You have to be smart.
+
+380
+00:23:54,530 --> 00:23:56,490
+You have to think about performance.
+
+381
+00:23:56,490 --> 00:24:00,020
+If you're smart and put in enough effort, you can make anything fast.
+
+382
+00:24:00,020 --> 00:24:03,690
+I encourage you to look into these frameworks yourself
+
+383
+00:24:03,690 --> 00:24:09,770
+and experience how they feel, how performant they are and the user experience and
+
+384
+00:24:09,770 --> 00:24:18,179
+how the user perceives the transitions, animations, and interactions.
+
+385
+00:24:18,179 --> 00:24:24,330
+How effective are you going to be with these different solutions?
+
+386
+00:24:24,330 --> 00:24:27,870
+Four things I would think about with productivity and things that you need to look
+
+387
+00:24:27,870 --> 00:24:32,320
+out on your own, look at how your team works and how well you can play with these
+
+388
+00:24:32,320 --> 00:24:34,130
+different tools.
+
+389
+00:24:34,130 --> 00:24:35,130
+Testability is a big one.
+
+390
+00:24:35,130 --> 00:24:37,610
+At Angular itself, we care a lot about this.
+
+391
+00:24:37,610 --> 00:24:40,299
+These tools, Ionic, NativeScript, and others in
+
+392
+00:24:40,299 --> 00:24:46,200
+the system, will leverage testability and built in those lines and this is pretty well
+
+393
+00:24:46,200 --> 00:24:48,110
+covered by everyone.
+
+394
+00:24:48,110 --> 00:24:53,100
+Having a good testing story, mocking, and unit-testing, is really key.
+
+395
+00:24:53,100 --> 00:24:56,210
+Then community: how active and engaged is the community?
+
+396
+00:24:56,210 --> 00:25:00,690
+How engaged and excited is the community?
+
+397
+00:25:00,690 --> 00:25:03,720
+Are you going to be able to get help when you get stuck on something?
+
+398
+00:25:03,720 --> 00:25:04,720
+Extensibility?
+
+399
+00:25:04,720 --> 00:25:06,920
+Is there a plugin architecture?
+
+400
+00:25:06,920 --> 00:25:12,350
+A time when I get stuck and won't get out of something using one of these
+
+401
+00:25:12,350 --> 00:25:13,559
+tools?
+
+402
+00:25:13,559 --> 00:25:17,390
+And code-sharing: how much code can I share between my application?
+
+403
+00:25:17,390 --> 00:25:21,049
+With hybrid, you could share pretty much your whole application with just a few things
+
+404
+00:25:21,049 --> 00:25:22,330
+here and there.
+
+405
+00:25:22,330 --> 00:25:25,640
+With native JavaScript or with NativeScript, you could have services
+
+406
+00:25:25,640 --> 00:25:31,240
+or things that are purely JavaScript-shared, but it's up to you to decide how much you
+
+407
+00:25:31,240 --> 00:25:35,020
+can share between the two, and how much that saves you.
+
+408
+00:25:35,020 --> 00:25:36,260
+I covered a lot of stuff.
+
+409
+00:25:36,260 --> 00:25:41,870
+I probably forgot some things, got some details wrong, but I did get a lot of help from people
+
+410
+00:25:41,870 --> 00:25:44,640
+to make sure I was representing things correctly.
+
+411
+00:25:44,640 --> 00:25:49,210
+So I would like to encourage you to try Angular 2 for NativeScript web and
+
+412
+00:25:49,210 --> 00:25:50,890
+Ionic on your own.
+
+413
+00:25:50,890 --> 00:25:51,900
+Check out the developer experience.
+
+414
+00:25:51,900 --> 00:25:56,160
+They've all done a great job to make it easy to try these things.
+
+415
+00:25:56,160 --> 00:25:57,840
+Evaluate how well they meet your goals.
+
+416
+00:25:57,840 --> 00:26:05,480
+Thanks to folks from Ionic, and Google, and the help
+
+417
+00:26:05,480 --> 00:26:09,490
+getting the content together for this slide, and in general, just being helpful.
+
+418
+00:26:09,490 --> 00:26:10,490
+Otherwise.
+
+419
+00:26:10,490 --> 00:26:12,590
+Here are the links to the project.
+
+420
+00:26:12,590 --> 00:26:14,679
+I will Tweet the slides and share them later.
+
+421
+00:26:14,679 --> 00:26:15,679
+Thank you very much.
+
+422
+00:26:15,679 --> 00:26:15,680
+[APPLAUSE].
+
