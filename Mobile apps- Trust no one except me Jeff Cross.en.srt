@@ -10,12 +10,12 @@ Thank you.
 
 3
 00:00:02,260 --> 00:00:04,930
-在开始前  我们先做点小事儿
+在开始前  我想先做点小事儿
 Before we get started, I actually need to go over something.
 
 4
 00:00:04,930 --> 00:00:06,890
-这是我的孩子们
+这些是我的孩子们
 These are my boys.
 
 5
@@ -30,12 +30,12 @@ them the video of my talk.
 
 7
 00:00:10,890 --> 00:00:14,740
-所以  我希望在场的各位（如果可能的话）配合我这样做
+所以  请在场的各位配合我一下
 So, what I would like for everyone here to do, if you could,
 
 8
 00:00:14,740 --> 00:00:18,030
-我假装很投入  而你们则尽可能大声的笑  这样一来
+我假装再次来到讲台  而你们则尽可能大声的欢迎我  这样一来
 is me to pretend to come on stage and you cheer as loudly as you can, so, when
 
 9
@@ -45,12 +45,12 @@ I come home, they think everyone loves their daddy.
 
 10
 00:00:21,270 --> 00:00:24,260
-我马上就要翻到幻灯片首页  然后开始激情演讲
+我马上就要翻到幻灯片首页  然后跑上讲台
 I'm going to run up on the title slide, and run up on to the stage.
 
 11
 00:00:24,260 --> 00:00:30,869
-开始大笑吧  能多大声就多大声
+能多大声就多大声（的欢迎我）就最好了
 As loud as you can will be great.
 
 12
@@ -60,7 +60,7 @@ Thank you!
 
 13
 00:00:32,529 --> 00:00:35,829
-请坐
+[欢呼]  JEFF: 请坐
 [CHEERING] . JEFF: Sit down!
 
 14
@@ -70,7 +70,7 @@ Sit down!
 
 15
 00:00:37,489 --> 00:00:39,831
-这真是远超我的期待
+我有要讲的很多
 I've got a lot to go over.
 
 16
@@ -85,12 +85,12 @@ It's great to be here.
 
 18
 00:00:42,420 --> 00:00:45,609
-朋友们  开始吧  我这次要讲的很多
+朋友们  别这样  我这次要讲的很多
 Guys, come on, I've got a lot to cover!
 
 19
 00:00:45,609 --> 00:00:52,149
-我是 Jeff Cross  头衔是 Angular 移动技术组的 Tech Lead
+我是 Jeff Cross  我是 Angular 移动技术组的 Tech lead  和标题上说的一样
 So, I'm Jeff Cross, the tech lead of the mobile team on Angular, and as the title says,
 
 20
@@ -100,12 +100,12 @@ I'm probably the most trustworthy person here at the conference.
 
 21
 00:00:55,999 --> 00:00:58,190
-如果你这次只打算听一个演讲
+如果你这次只打算听一个演讲  那就是这个了
 If you're going to one talk the whole time, this is
 
 22
 00:00:58,190 --> 00:00:59,679
-这一个可能是最好的
+这可能是最好的演讲了
 probably the best one to be at!
 
 23
@@ -125,21 +125,22 @@ Alex and me are like the band Nsync where we collaborate
 
 26
 00:01:10,940 --> 00:01:15,720
-一起出专辑  但有时我们也独自做项目
+一起出专辑  但有时我们也独自做
 together and make albums together, but once in a while, we make solo
 
 27
 00:01:15,720 --> 00:01:16,720
+项目
 projects.
 
 28
 00:01:16,720 --> 00:01:20,410
-我就是 Justin Timberlake （超级男孩乐队的队长）
+（在这个比喻中）  我就是 Justin Timberlake （超级男孩乐队的队长）
 I'm Justin Timberlake.
 
 29
 00:01:20,410 --> 00:01:27,980
-我们一回去就会制作酷炫的移动应用
+我们一回去就努力工作  让移动应用更加牛逼
 We will be getting back to work to make mobile awesome.
 
 30
@@ -149,21 +150,22 @@ My goal is to equip you with the knowledge so that you can decide a mobile
 
 31
 00:01:32,440 --> 00:01:37,010
-何种策略   这就像挑选工具  为正式的应用而不是为自家的玩具应用
+何种策略   这就像挑选工具  比如选取工具和策略
 strategy for your applications, like clicking the tools - picking the tools and strategies
 
 32
 00:01:37,010 --> 00:01:41,460
-而选取工具和策略
+为正式的应用而不是为自家的玩具应用
 to use for serious applications, not the toy apps you build at home.
 
 33
 00:01:41,460 --> 00:01:44,310
-Alex 会讲述制作大多数移动 Web 方面的开发经验
+Alex 会讲述如何最大你的移动 
 Alex is going to talk about making the most of your mobile
 
 34
 00:01:44,310 --> 00:01:46,480
+Web 开发经验
 web experience.
 
 35
@@ -173,7 +175,7 @@ I've got 20 minutes.
 
 36
 00:01:47,760 --> 00:01:49,760
-我们要怎样才能填满这 20 分钟呢？
+我们要怎样在这 20 分钟讲述这么多内容呢？
 What can we fit in 20 minutes?
 
 37
@@ -183,7 +185,7 @@ I think we can evaluate and compare every tool, library and
 
 38
 00:01:53,880 --> 00:01:59,900
-移动开发方面的理念  或者  偏实践一点  我们可以聚焦于和Angular有关的那些细节
+移动开发方面的理念  或者  实际一点  我们可以聚焦于和Angular有关的那些细节
 idea in the mobile landscape, or, maybe to be practical, we can focus on the pieces that
 
 39
@@ -193,12 +195,12 @@ pertain to Angular, so - Angular looking at tools that are specifically integrat
 
 40
 00:02:04,050 --> 00:02:10,379
-这样我就能讲得更快一点儿  我将会
+我将会讲的很快  我将会
 - I'm going to be talking fast, I'm going to
 
 41
 00:02:10,379 --> 00:02:12,879
-共享这些幻灯片  它们当中包含了大部分信息
+共享这些幻灯片  它们当中包含了很多信息
 share the slides, they've got lots of information inside.
 
 42
@@ -208,12 +210,12 @@ If you get lost, you'll catch up later.
 
 43
 00:02:16,660 --> 00:02:20,489
-我们先来看看一些移动技术爱好者  他们远比我们
+我们先来看看一些移动技术爱好者  他们天天讨论他们的
 Let's take a look at some of the mobile enthusiasts who go on and on about their
 
 44
 00:02:20,489 --> 00:02:25,379
-更关心这些工具
+工具  远远超过了我们想听的极限
 tools way longer than any of us care to hear about them.
 
 45
@@ -223,7 +225,7 @@ To be fair, we will start with the Angular Mobile Team.
 
 46
 00:02:41,799 --> 00:02:43,299
-对渐进式 Web 应用  我们讲了很多
+对渐进式 Web 应用  我们讨论的很多
 >> We talk a lot about progressive web apps.
 
 47
@@ -312,7 +314,7 @@ experience and sharing code with web apps and using your web app skills.
 
 64
 00:03:51,560 --> 00:03:53,760
-于是我们得到了一个渐进式Web应用
+所以我们有渐进式Web应用
 We've got progressive web apps.
 
 65
@@ -336,7 +338,7 @@ As you saw there.
 
 69
 00:04:06,090 --> 00:04:14,870
-Luke Luke Luke NativeScript 是另一种截然不同的方式[#TODO]
+Jen Looper 将会演讲  还有 Ionic 的 Adam 和 Brandy 也将随后演讲  你们绝对应该去听听他们的演讲 NativeScript 是另一种截然不同的方式
 Luke Luke Luke will be native script is a kind of different approach.
 
 70
@@ -356,7 +358,7 @@ native UI, with hardware acceleration, nice smooth scrolling, all that with a lo
 
 73
 00:04:33,720 --> 00:04:35,530
-于是  我们有了三个相互竞争的候选技术
+所以  我们有了三个相互竞争的候选技术
 So we've got these three contenders.
 
 74
@@ -381,7 +383,7 @@ and NativeScript, maybe web and Ionic.
 
 78
 00:04:49,730 --> 00:04:55,510
-我们要看看它们如何互相取长补短  
+我们要看看它们如何互补的  
 We want to look at how they complement each other, what are the strengths and advantages
 
 79
@@ -416,7 +418,7 @@ or native JavaScript or some tools like them?
 
 85
 00:05:18,030 --> 00:05:21,030
-我们来看看Angular大陆Mobile王国的南部[#TODO]
+我们来看看Angular世界的Mobile方向
 Let's look and the South of mobile in Angular land.
 
 86
@@ -551,7 +553,7 @@ make money somehow and that's how we do.
 
 113
 00:06:41,750 --> 00:06:48,630
-人们查找应用、内容、新文章等等就是主流方式
+这也是人们查找应用、内容、新文章等等的主流方式
 It's a big way that people find apps, content, news articles, whatever, and they've
 
 114
@@ -580,7 +582,7 @@ crawler-indexed, or some search engines just don't have advanced crawling, now w
 
 119
 00:07:07,570 --> 00:07:11,550
-现在  借助 Universal，Angular 2 具备了预先渲染（Prerender）的能力
+现在  借助 Universal  Angular 2 具备了预先渲染（Prerender）的能力
 Angular 2 there is a capability of pre-rendering using Universal.
 
 120
@@ -777,7 +779,7 @@ it is up to me as a developer to figure out how and where the user can share tha
 
 160
 00:09:47,940 --> 00:09:51,230
-很多次  如果想要从设备上获取照片
+很多时候  如果想要从设备上获取照片
 A lot of times, if I want to get a photo from the
 
 161
