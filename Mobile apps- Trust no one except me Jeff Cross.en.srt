@@ -160,7 +160,7 @@ to use for serious applications, not the toy apps you build at home.
 
 33
 00:01:41,460 --> 00:01:44,310
-Alex 会讲述如何最大你的移动 
+Alex 会讲述如何充分发挥你的移动 
 Alex is going to talk about making the most of your mobile
 
 34
