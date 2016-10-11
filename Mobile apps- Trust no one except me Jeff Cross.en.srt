@@ -60,7 +60,7 @@ Thank you!
 
 13
 00:00:32,529 --> 00:00:35,829
-[欢呼]  JEFF: 请坐
+请坐
 [CHEERING] . JEFF: Sit down!
 
 14
@@ -70,7 +70,7 @@ Sit down!
 
 15
 00:00:37,489 --> 00:00:39,831
-我有要讲的很多
+我有很多要讲的
 I've got a lot to go over.
 
 16
@@ -200,7 +200,7 @@ pertain to Angular, so - Angular looking at tools that are specifically integrat
 
 41
 00:02:10,379 --> 00:02:12,879
-共享这些幻灯片  它们当中包含了很多信息
+分享这些幻灯片  它们当中包含了很多信息
 share the slides, they've got lots of information inside.
 
 42
@@ -225,7 +225,7 @@ To be fair, we will start with the Angular Mobile Team.
 
 46
 00:02:41,799 --> 00:02:43,299
-对渐进式 Web 应用  我们讨论的很多
+>> 对渐进式 Web 应用  我们讨论的很多
 >> We talk a lot about progressive web apps.
 
 47
@@ -309,7 +309,7 @@ You can put them on phones, add native features, while having a nice
 
 63
 00:03:46,109 --> 00:03:51,560
-良好的用户体验又能与 Web 应用共享代码以及复用你的 Web 开发技能
+良好的用户体验又能与 Web 应用分享代码以及复用你的 Web 开发技能
 experience and sharing code with web apps and using your web app skills.
 
 64
@@ -348,7 +348,7 @@ It's not hybrid in the same sense as Cordova but you to get to write
 
 71
 00:04:18,510 --> 00:04:27,690
-JavaScript 和 TypeScript 运行时也像个应用程序，但它的UI是原生的
+JavaScript 和 TypeScript 它在运行时也像个应用程序，但它的UI是原生的
 JavaScript and TypeScript and it runs at the same time as the application but you have
 
 72
@@ -418,7 +418,7 @@ or native JavaScript or some tools like them?
 
 85
 00:05:18,030 --> 00:05:21,030
-我们来看看Angular世界的Mobile方向
+我们来看看Angular世界的Mobile发展方向
 Let's look and the South of mobile in Angular land.
 
 86
@@ -490,7 +490,7 @@ When a user hears about your app, finds it in a search engine,
 
 100
 00:06:01,220 --> 00:06:05,480
-用户查找时能有多容易？以及  你的应用该如何升级？
+用户容易找到它吗？以及  你的应用该如何升级？
 finds it somewhere else, how easily can they use it, and how does the updating of
 
 101
@@ -548,7 +548,7 @@ Angular seems like this great project but we have to make
 
 112
 00:06:38,860 --> 00:06:41,750
-以某种方式赚到钱  我们的做法就是这样
+以某种方式赚到钱  我们的做法就是这样的
 make money somehow and that's how we do.
 
 113
@@ -601,7 +601,7 @@ With universal, you eliminate the downsides before
 
 123
 00:07:22,200 --> 00:07:25,690
-在搜索引擎优化方面的缺点
+在搜索引擎优化（SEO）方面的缺点
 you have search-engine optimisation.
 
 124
@@ -660,7 +660,7 @@ Mobile operating systems provide operating-level
 
 135
 00:08:07,620 --> 00:08:15,130
-在那里  你可以搜索设备上或 Web 上的内容，并且提供了应用商店的搜索功能
+在那里  你可以搜索设备上或 Web 上的内容  并且提供了应用商店的搜索功能
 system search where you can search content on your device or on the web, and to provide
 
 136
@@ -759,7 +759,7 @@ be a native or hybrid version of the app installed.
 
 156
 00:09:34,670 --> 00:09:38,130
-可分享性：用户要共享你的内容有多容易？
+可分享性：用户要分享你的内容有多容易？
 Shareability: how easily do users share your content?
 
 157
@@ -774,7 +774,7 @@ If I want to share a photo, content, anything,
 
 159
 00:09:43,240 --> 00:09:47,940
-那就需要开发者给用户指出该如何以及在哪里共享它
+那就需要开发者给用户指出该如何以及在哪里分享它
 it is up to me as a developer to figure out how and where the user can share that.
 
 160
@@ -794,12 +794,12 @@ There's no integration with the native gallery or other APIs.
 
 163
 00:10:00,400 --> 00:10:05,230
-目前  我没有办法让用户做到：我有内容、然后通过原生的共享机制取到它
+目前  我没有办法让用户做到：我有内容、然后通过原生的分享机制取到它
 There is no way for me to say I have the content, now, what the operating
 
 164
 00:10:05,230 --> 00:10:08,950
-再共享到任何地方
+再分享到任何地方
 native sharing mechanism take over and share it to wherever they have, it is
 
 165
@@ -829,7 +829,7 @@ Someone on the Chrome team is working on speccing, being able to share
 
 170
 00:10:31,521 --> 00:10:34,770
-共享的规范
+分享的规范
 from a web app.
 
 171
@@ -909,12 +909,12 @@ You've got the flexibility of the web, you can do everything
 
 186
 00:11:29,430 --> 00:11:33,839
-但同时你还有原生操作系统的支持  于是你可以
+但同时你还有原生操作系统的支持  于是你还可以选择
 you can do with web, but you have the native operating system support, so you can
 
 187
 00:11:33,839 --> 00:11:38,920
-推迟提供这种操作方式  用另一种方式达到分享这些内容的目的
+推迟提供这种操作方式  而用另一种方式达到分享这些内容的目的
 defer to what the operating provides, in terms of share targets for content.
 
 188
@@ -924,7 +924,7 @@ And plugins for Ionic, and NativeScript make this
 
 189
 00:11:42,300 --> 00:11:46,440
-轻松实现共享  只需要通过少量配置  付出很小的努力就能实现
+轻松实现分享  只需要通过少量配置  付出很小的努力就能实现
 easy to share with little effort and little configuration.
 
 190
@@ -934,22 +934,22 @@ They can also handle shares from other applications.
 
 191
 00:11:49,960 --> 00:11:56,130
-你只要声明了自己的应用能处理共享内容
+你只要声明了自己的应用能处理分享内容
 You can declare your app is able to share content, and they can
 
 192
 00:11:56,130 --> 00:12:01,340
-他们就能共享给你的应用  而你可以用任何自己喜欢的方式处理它  
+他们就能分享给你的应用  而你可以用任何自己喜欢的方式处理它  
 share your app and you can handle it however you like.
 
 193
 00:12:01,340 --> 00:12:05,850
-总结一下  Web 应用目前受限于通过 Web API进行共享
+总结一下  Web 应用目前受限于通过 Web API进行分享
 To summarise, web app is currently limited to sharing with web APIs,
 
 194
 00:12:05,850 --> 00:12:10,960
-而且你没办法处理来自其它应用的共享内容  而原生应用可以整合到操作系统级的共享机制中
+而且你没办法处理来自其它应用的分享内容  而原生应用可以整合到操作系统级的分享机制中
 and you can't handle shares from other applications, and native can handle OS-level
 
 195
@@ -1048,7 +1048,7 @@ the Google Plus app, when they have this mobile app that people would show up
 
 214
 00:13:07,310 --> 00:13:12,149
-当显示在屏幕上时  你和共享的内容之间隔着一大堆事情
+当显示在屏幕上时  你和分享的内容之间隔着一大堆事情
 to and click links, they had a giant thing that showed up on the screen between you and
 
 215
@@ -1248,15 +1248,17 @@ That's not bad.
 
 254
 00:15:46,140 --> 00:15:49,700
-
+用户在加载完所有东西之后才能开始工作  即使是有service-worker（译注：appcache升级版）的支持也一样
 They get it after everything loads, but even with service-worker
 
 255
 00:15:49,700 --> 00:15:52,540
+这个过程中你可以做一些更好看的加载动画和背景
 now, you can do more advanced loading and the background.
 
 256
 00:15:52,540 --> 00:15:57,060
+服务器会告诉你：我现在有一些更新  并且把它们推送给service-worker。
 The server can say I've got updates, will push them down
 
 257
@@ -1265,14 +1267,17 @@ service-worker.
 
 258
 00:15:58,310 --> 00:16:04,130
+于是  当用户下次打开此应用时  你就能重新加载带有这些新内容的应用
 So the next time the user opens the app, you can reload the app with
 
 259
 00:16:04,130 --> 00:16:07,220
+而不用再通过网络获取  这样你就获得了一些类似原生应用的体验
 all the new content without having to fetch anything over the network, so you get kind
 
 260
 00:16:07,220 --> 00:16:12,080
+而用户也获得了最新的内容、最新的补丁、最新的特性
 of a native-like experience with that, but you're still getting fresh content and fresh
 
 261
@@ -1281,6 +1286,7 @@ fixes, and features for the user.
 
 262
 00:16:14,580 --> 00:16:17,850
+接下来  我们看看Hybrid应用和原生应用  看看它们如何升级
 So let's look at hybrid and native just, how their update
 
 263
@@ -1289,90 +1295,112 @@ process works.
 
 264
 00:16:19,270 --> 00:16:23,880
+如果你对应用中的二进制特性或原生特性做出了任何修改
 If you change anything with your apps in binary, or any native features,
 
 265
 00:16:23,880 --> 00:16:25,890
+你都不得不到应用商店中重新发布
 you have to republish to app stores.
 
 266
 00:16:25,890 --> 00:16:28,460
+在iOS上，你要发布就必须通过它的审核和复审
 This can halt the process because, with ios, you've
 
 267
 00:16:28,460 --> 00:16:31,990
+而这会让你不得不暂停这个更新过程
 got to go - with with iOS, you've got to go through approval and review.
 
 268
 00:16:31,990 --> 00:16:40,180
+即使你能让用户自己手动升级  也仍然不得不
 Even with manual, you've got to get - you may have to
 
 269
 00:16:40,180 --> 00:16:41,180
+等待用户
 wait for the user.
 
 270
 00:16:41,180 --> 00:16:43,600
+他们可能都不知道如何手动升级
 They may not know they need to update the app manually.
 
 271
 00:16:43,600 --> 00:16:46,170
+对于Hybrid应用  在原生特性或嵌入式内容变化时
 In hybrid apps, they need to be republished if the
 
 272
 00:16:46,170 --> 00:16:49,370
+才需要重新发布
 native features have changed or embedded content has changed.
 
 273
 00:16:49,370 --> 00:16:52,430
+Hybrid应用的优点是你可以有一大堆内容是
 It's an advantage with hybrid apps that you can have a lot of
 
 274
 00:16:52,430 --> 00:16:57,581
+远程加载到WebView中的  所以  如果你能做到修改这些内容
 your content just be remotely loaded in web views, so, if you can change that con tent
 
 275
 00:16:57,581 --> 00:17:01,709
+—— 任何你想修改的内容 —— 而发布到设备中的部分没变
 - you can change that content as much as you want, and what ships in the device is
 
 276
 00:17:01,709 --> 00:17:07,670
+没有添加新的原生插件  或者  修改已经加载到设备上的皮肤
 not changing, not adding new native plugins or changing the skin loaded on the device,
 
 277
 00:17:07,670 --> 00:17:14,870
+那么你就不用通过应用商店发布  除非你添加了原生特性  而且
 then you don't have to push to the app stores until you add native features, and
 
 278
 00:17:14,870 --> 00:17:20,770
+我还知道即使在这种场合下 NativeScript 也仍然可以修改而不用重新在应用商店发布
 I know NativeScript is working update-ability to do that as well.
 
 279
 00:17:20,770 --> 00:17:28,140
+总之：Web 技术提供了一种路径  Hybrid 和原生 JavaScript 技术解决了由于
 Summary: Web provides a path - hybrid and native JavaScript have
 
 280
 00:17:28,140 --> 00:17:31,610
+应用商店审核而导致的漫长发布周期
 potentially longer turnaround because of app store review.
 
 281
 00:17:31,610 --> 00:17:35,280
+推迟自动更新可能需要经过用户的确认
 Delays in automatic updating had potential need for user approval.
 
 282
 00:17:35,280 --> 00:17:39,120
+好  发布部分我们讲完了  接下来我们讲下一节
 So, having covered the distribution, we enough move on to the next major section which
 
 283
 00:17:39,120 --> 00:17:41,150
+能力
 is capabilities.
 
 284
 00:17:41,150 --> 00:17:44,290
+这一节我们会讲解那些对 原生 或 Web 可用的 API
 What I'm going to cover here are APIs that are available in
 
 285
 00:17:44,290 --> 00:17:48,780
+并且看看我们在各种场合下所能做的有什么差别
 native or web, and kind of looking at the discrepancies between what you can do in what
 
 286
@@ -1381,46 +1409,57 @@ places.
 
 287
 00:17:49,960 --> 00:17:54,170
+我们来看看用原生你能做到什么  或者  用 Web 你不能做到什么
 I'm looking at it as binary that you can or can't do things on the web but
 
 288
 00:17:54,170 --> 00:17:59,060
+但这些差异都很细微  我鼓励你们自己去评测你们关心的那些 API
 it is actually more nuanced than that, and, I encourage you to look some more if there
 
 289
 00:17:59,060 --> 00:18:07,150
+这些 API 可能在原生下更好  可能在 Hybrid 中的 Web部分更好
 are APIs that you care about, which may be much better on native, much better on the
 
 290
 00:18:07,150 --> 00:18:15,460
+或者原生应用能访问而其它的都不行
 web in hybrid and native apps have access that others don't yet.
 
 291
 00:18:15,460 --> 00:18:20,330
+有些可能只在某些浏览器的试验性分支上才能工作
 These may be worked on and are in experimental branches of browsers.
 
 292
 00:18:20,330 --> 00:18:27,790
+我们来看看这些 API  准备基于 Chrome 和 Safari 来讨论
 Let's look at APIs of note, going to talk about Chrome, and Safari.
 
 293
 00:18:27,790 --> 00:18:35,330
+你可能知道 —— iOS 上的 Chrome 受限于 Safari 因为 Chrome 使用
 If you're familiar with - Chrome is limited by Safari because Chrome uses a web
 
 294
 00:18:35,330 --> 00:18:42,299
+操作系统提供的 WebView  它和 Safari 所用的差不多
 view that the operating system provides which is the same is it Safari more or less.
 
 295
 00:18:42,299 --> 00:18:47,620
+我们从九个方面进行深入剖析
 I've got the nine categories we will dive into.
 
 296
 00:18:47,620 --> 00:18:49,960
+先从原生的行为开始
 Starting with native behaviours.
 
 297
 00:18:49,960 --> 00:18:52,220
+稍后再来看这些幻灯片  因为这里我不会详细讲解它们
 Look at these later on the slides because I won't review
 
 298
@@ -1429,98 +1468,122 @@ them in detail.
 
 299
 00:18:53,570 --> 00:18:55,750
+我收到通知了吗？
 Do I get notifications?
 
 300
 00:18:55,750 --> 00:18:57,350
+我能在前台看到这些通知吗？
 Can I know if I'm in the foreground?
 
 301
 00:18:57,350 --> 00:18:59,250
+我能设置这些应用的发通知权限吗？
 Can I set permissions for the app?
 
 302
 00:18:59,250 --> 00:19:03,350
+简短来说  对于 iOS Web  还没有办法推送通知
 The short story of this is for iOS web, there is no push notifications
 
 303
 00:19:03,350 --> 00:19:05,770
+而且也没有任何准备开放此功能的迹象
 yet and there's no indication when there will be.
 
 304
 00:19:05,770 --> 00:19:08,990
+这取决于他们啥时候开始实现 service worker 规范
 This depends on them implementing service worker to the spec, which
 
 305
 00:19:08,990 --> 00:19:12,170
+一旦他们开始实现  那可能离开放此功能就不远了  但是迄今为止
 there are some indications they have started but they haven't publicly stated that they
 
 306
 00:19:12,170 --> 00:19:15,210
+他们还没有任何开始实现 service worker 的迹象
 have started on implementing service-worker.
 
 307
 00:19:15,210 --> 00:19:18,070
+接下来你是不是开始关心和周边环境的交互了？
 Then you've got surroundings like how can I interact with the world around me?
 
 308
 00:19:18,070 --> 00:19:19,420
+蓝牙和NFC（近场通讯）
 Bluetooth and NFC.
 
 309
 00:19:19,420 --> 00:19:23,110
+简短地说  Chrome 即将支持蓝牙
 The short story is Bluetooth and Chrome is coming soon.
 
 310
 00:19:23,110 --> 00:19:28,460
+在这个大会上可能会有关于它的演讲  但我不太确定
 This may be spoke about at the conference, I'm not sure.
 
 311
 00:19:28,460 --> 00:19:31,150
+但是 iOS 尚未对此有任何规划  因此目前这还是 Chrome 的独家
 But iOS doesn't have any web time line, so this is specced.
 
 312
 00:19:31,150 --> 00:19:37,549
+Chrome 有这个试验性功能  你今天就可以亲自玩玩看
 Chrome has as an experiment, and you can play with that today.
 
 313
 00:19:37,549 --> 00:19:42,250
+其它的设备特性  比如了解网络信息、电池状态、是否在线、
 Then device features like knowing the network info, battery state, am I online?
 
 314
 00:19:42,250 --> 00:19:45,210
+控制手机的震动马达
 Being able to control the vibration motor.
 
 315
 00:19:45,210 --> 00:19:50,510
+简短地说：电池和网络在 iOS Web 上是不支持的
 Short story is: battery network are not availability on iOS web.
 
 316
 00:19:50,510 --> 00:19:53,980
+看出规律了吧！
 Are you seeing a pattern!
 
 317
 00:19:53,980 --> 00:19:55,020
+只有 Android 和 Chrome 支持
 Android and Chrome.
 
 318
 00:19:55,020 --> 00:19:57,230
+值得注意的是  在Android下的大多数其它浏览器
 And also worth noting, most other browsers on Android
 
 319
 00:19:57,230 --> 00:20:00,160
+也同样在引领潮流
 tend to be ahead of the game, too.
 
 320
 00:20:00,160 --> 00:20:02,370
+比如他们已经支持了 Service Worker 、推送通知
 Like they have support for Service Workers, push
 
 321
 00:20:02,370 --> 00:20:08,090
+以及安装到首屏  所以你就明白我们为何专注于 Chrome 了
 notifications, and install a home screen, so you know I'm focusing on Chrome in these.
 
 322
 00:20:08,090 --> 00:20:12,669
+用户获得了天衣无缝的体验  比如我打开此应用是多么容易啊  这看起来很像原生应用  是不是？
 Getting to seamless experience like how easily do I open the app, does it feel like
 
 323
@@ -1529,58 +1592,72 @@ native?
 
 324
 00:20:13,669 --> 00:20:15,900
+它能开启离线模式
 Does it have an offline mode?
 
 325
 00:20:15,900 --> 00:20:17,230
+还有安装到首屏功能  这样我就能
 Having home screen installation, so I can launch
 
 326
 00:20:17,230 --> 00:20:20,910
+从首屏启动了  还能在背后默默地同步内容
 from the home screen, being able to sync things in the background, being able to
 
 327
 00:20:20,910 --> 00:20:22,460
+还能与其它应用通讯
 communicate with other apps.
 
 328
 00:20:22,460 --> 00:20:24,360
+简短来说这就是它在任何地方都能全屏和非全屏
 The short story is that full offscreen and fullscreen are
 
 329
 00:20:24,360 --> 00:20:31,080
+但是 iOS Web 做不到  应用被埋没在复杂的书签和元标签中
 possible everywhere, but with ioS web it's not ideal, hidden in obscure book marking
 
 330
 00:20:31,080 --> 00:20:36,160
+大多数用户都不知道怎样才能获得这些好处
 and meta tags, and that most users don't know enough about to take advantage of.
 
 331
 00:20:36,160 --> 00:20:41,860
+你可以放到首屏  但它依赖于已经被废弃的 Application Cache 特性
 You can do home screen, and it depends on the application cache which has been
 
 332
 00:20:41,860 --> 00:20:47,820
+它处处都是坑和其它风险
 deprecated and, is pretty riddled with traps and dangers.
 
 333
 00:20:47,820 --> 00:20:51,500
+那么  摄像头和麦克风呢？ 这样就能捕捉视频  并
 So then camera and microphone: this is being able to capture
 
 334
 00:20:51,500 --> 00:20:54,350
+进行实时通话和录像了
 video, doing real time calling and recording.
 
 335
 00:20:54,350 --> 00:20:59,960
+在 Chrome 中  很快就会通过试验性特性提供大量此类支持
 In Chrome, there is a lot of support coming soon that is experimental right now, but for
 
 336
 00:20:59,960 --> 00:21:06,400
+但是对于 iOS Web 还没有关于这些的时间表
 ioS web, no time when you are access these things.
 
 337
 00:21:06,400 --> 00:21:08,710
+还要能检查屏幕方向以及阻止屏幕进入休眠状态。
 Being able to check screen orientation and stop the screen from going
 
 338
@@ -1589,10 +1666,12 @@ to sleep.
 
 339
 00:21:09,720 --> 00:21:21,290
+iOS Web 不存储这些输入  用户该如何与设备交互？
 IOS web doesn't store this -- input, how do users interact with the device?
 
 340
 00:21:21,290 --> 00:21:23,970
+触控手势、语音识别以及对 Web 来说相对较新的访问剪贴板和指纹识别
 Touch gestures, speech recognition, which is
 
 341
@@ -1601,10 +1680,12 @@ relatively new for web, clipboard access and fingerprint.
 
 342
 00:21:29,070 --> 00:21:30,860
+对触控的支持无处不在  真棒
 Touch support is everywhere,s that's great.
 
 343
 00:21:30,860 --> 00:21:33,900
+你可以得到触控事件  并且通过库来让它用起来更简单  
 You can have touch events and use libraries that make those easy to work
 
 344
@@ -1613,6 +1694,7 @@ with.
 
 345
 00:21:35,380 --> 00:21:42,820
+关掉指纹识别有时候可能更好  因为它只在 iOS 的 Hybrid 和原生应用中才能用 
 Fingerprint off is something that is pretty - fingerprint auth is available only on iOS
 
 346
@@ -1621,114 +1703,142 @@ hybrid native.
 
 347
 00:21:43,820 --> 00:21:48,400
+我不确定你能否在 Android 上使用它
 I'm sure you could work with Android's.
 
 348
 00:21:48,400 --> 00:21:53,460
+目前还没有现成的插件能支持它
 There aren't plugins out the box right now that work with it.
 
 349
 00:21:53,460 --> 00:21:57,070
+对于它何时能用在 Web 上  也还没有时间表
 And no timeline on when those will be availability in the web.
 
 350
 00:21:57,070 --> 00:22:01,840
+我估计  它是由 iOS 引领的领域
 There is one category where iOS leads, I guess.
 
 351
 00:22:01,840 --> 00:22:10,080
+还要知道设备在哪里  它们什么时候离开或进入某个地点  以及
 Knowing where the device is, when they leave and enter a place, and being
 
 352
 00:22:10,080 --> 00:22:17,460
+能够跟踪设备运动的事件 —— 分别通过重力感应、陀螺仪、传感器
 able to track device-motion events on the accelerometer, gyroscope, sensors individually.
 
 353
 00:22:17,460 --> 00:22:19,540
+位置 —— 能让你知道用户的地理位置
 Location - you can know the user's location.
 
 354
 00:22:19,540 --> 00:22:22,380
+地理位置目前在 Web 上还不可用
 Geofencing isn't available on the web.
 
 355
 00:22:22,380 --> 00:22:28,230
+你可以破解它  或者  只是取得用户的位置  并且检查他们什么时候进入
 You can hack it or just pull the user's location and check when they've entered a
 
 356
 00:22:28,230 --> 00:22:32,360
+某个特定的位置  但是你不能说：“告诉我用户啥时候进入了这个区域”
 certain area, but you can't say, "Let me know when the user has got to this area."
 
 357
 00:22:32,360 --> 00:22:33,420
+这没有原生支持
 That's not natively supported.
 
 358
 00:22:33,420 --> 00:22:39,020
+操作系统：让你能访问
 Operating system: so being able to access being able
 
 359
 00:22:39,020 --> 00:22:47,140
+离线存储、文件系统  还能让你访问联系人、日历等API
 to access offline storage, file system, being able to access APIs like contacts and calendar.
 
 360
 00:22:47,140 --> 00:22:49,450
+离线存储的好处无处不在
 Offline storage payments are available everywhere.
 
 361
 00:22:49,450 --> 00:22:54,299
+Safari 和 Chrome 的实现不一样  但是你可以系统中集成的支付接口
 Safari go Chrome have different implementations, but you can pay with
 
 362
 00:22:54,299 --> 00:22:57,120
+进行支付
 your native payments integration.
 
 363
 00:22:57,120 --> 00:23:00,310
+但无法访问联系人和日历  而且也我也没有看到
 And no contact or calendar access, and there is no
 
 364
 00:23:00,310 --> 00:23:04,070
+任何打算在浏览器中直接支持这些的时间表
 timeline or chatter I've seen of being able to work with these things directly.
 
 365
 00:23:04,070 --> 00:23:07,550
+就像Google自己的应用一样  你可以使用 API  通过它来访问
 You could use APIs, like if you're using Google apps,
 
 366
 00:23:07,550 --> 00:23:09,890
+日历和联系人信息
 access the calendar and contact through that.
 
 367
 00:23:09,890 --> 00:23:11,370
+但还是不理想
 Not ideal.
 
 368
 00:23:11,370 --> 00:23:12,669
+再来看性能
 Going to the performance.
 
 369
 00:23:12,669 --> 00:23:17,070
+我得到了一些新的内容来讲  但不是很深入
 I've got a few things to say here, not a whole lot of depth.
 
 370
 00:23:17,070 --> 00:23:23,200
+每秒60帧  在任何地方都够用了
 60 frames per second, is achievable anywhere.
 
 371
 00:23:23,200 --> 00:23:26,830
+Web 中  你可以通过 Hybrid 和原生来实现
 With the web, you can do it with hybrid, native.
 
 372
 00:23:26,830 --> 00:23:33,600
+原生 UI 可能是最简单的实现方式
 Native UI tends to deliver the easiest experience to make this happen.
 
 373
 00:23:33,600 --> 00:23:39,120
+你们可以推动它们  让它们变得更好
 You can leverage them out the box and they tend to be better.
 
 374
 00:23:39,120 --> 00:23:41,039
+要注意的是   在任何平台上  都很容易写出性能很差的应用
 It's worth knowing that a bad performance is just as
 
 375
@@ -1737,50 +1847,62 @@ easily accomplished on any platform.
 
 376
 00:23:43,070 --> 00:23:45,460
+如果你是一个开发人员  并且不愿意思考性能的问题
 If you as a developer are lazy and not thinking about
 
 377
 00:23:45,460 --> 00:23:51,390
+你就可能会让任何东西变得很慢  而这种现象我在实践中曾经
 performance, you can make something really slow, and I've seen this in practice
 
 378
 00:23:51,390 --> 00:23:53,530
+观察到很多很多次
 too many times to recount.
 
 379
 00:23:53,530 --> 00:23:54,530
+你必须很能干
 You have to be smart.
 
 380
 00:23:54,530 --> 00:23:56,490
+你必须考虑性能问题
 You have to think about performance.
 
 381
 00:23:56,490 --> 00:24:00,020
+如果你很能干并且投入了足够的精力  那么就能把一切都变快
 If you're smart and put in enough effort, you can make anything fast.
 
 382
 00:24:00,020 --> 00:24:03,690
+我鼓励你们自己深入到这些框架中
 I encourage you to look into these frameworks yourself
 
 383
 00:24:03,690 --> 00:24:09,770
+实际使用它们  感受它们的性能与用户体验  并且
 and experience how they feel, how performant they are and the user experience and
 
 384
 00:24:09,770 --> 00:24:18,179
+感受用户如何看待过渡、动画和交互
 how the user perceives the transitions, animations, and interactions.
 
 385
 00:24:18,179 --> 00:24:24,330
+这些不同的解决方案时开发效率如何？
 How effective are you going to be with these different solutions?
 
 386
 00:24:24,330 --> 00:24:27,870
+关于生产率  我会考虑四件事  你可能也要自己考虑下它们
 Four things I would think about with productivity and things that you need to look
 
 387
 00:24:27,870 --> 00:24:32,320
+看看你的团队如何工作  以及你怎样才能用好这些不同的工具
 out on your own, look at how your team works and how well you can play with these
 
 388
@@ -1789,50 +1911,62 @@ different tools.
 
 389
 00:24:34,130 --> 00:24:35,130
+可测试性是一大块儿
 Testability is a big one.
 
 390
 00:24:35,130 --> 00:24:37,610
+对Angular本身  我们非常关注这些
 At Angular itself, we care a lot about this.
 
 391
 00:24:37,610 --> 00:24:40,299
+那些工具： Ionic 、 NativeScript 等等
 These tools, Ionic, NativeScript, and others in
 
 392
 00:24:40,299 --> 00:24:46,200
+都会提升可测试性  并且把这些实践内建进去
 the system, will leverage testability and built in those lines and this is pretty well
 
 393
 00:24:46,200 --> 00:24:48,110
+它们在这方面都做得不错
 covered by everyone.
 
 394
 00:24:48,110 --> 00:24:53,100
+拥有一个好的测试用例、Mock和单元测试是很关键的
 Having a good testing story, mocking, and unit-testing, is really key.
 
 395
 00:24:53,100 --> 00:24:56,210
+然后来看社区：社区有多么积极主动？
 Then community: how active and engaged is the community?
 
 396
 00:24:56,210 --> 00:25:00,690
+社区的激励性和吸引力怎么样？
 How engaged and excited is the community?
 
 397
 00:25:00,690 --> 00:25:03,720
+当你在某些事情上陷入困境时  能从社区获得帮助吗？
 Are you going to be able to get help when you get stuck on something?
 
 398
 00:25:03,720 --> 00:25:04,720
+可扩展性如何？
 Extensibility?
 
 399
 00:25:04,720 --> 00:25:06,920
+有没有插件式架构？
 Is there a plugin architecture?
 
 400
 00:25:06,920 --> 00:25:12,350
+在使用某个工具时，一旦陷入困境该怎么办？
 A time when I get stuck and won't get out of something using one of these
 
 401
@@ -1841,10 +1975,12 @@ tools?
 
 402
 00:25:13,559 --> 00:25:17,390
+以及代码共享：我能在多个应用之间共享多少代码？
 And code-sharing: how much code can I share between my application?
 
 403
 00:25:17,390 --> 00:25:21,049
+使用 Hybrid 方案  你可以共享整个应用的绝大部分代码  只有少数不同
 With hybrid, you could share pretty much your whole application with just a few things
 
 404
@@ -1853,30 +1989,37 @@ here and there.
 
 405
 00:25:22,330 --> 00:25:25,640
+使用原生 JavaScript 方案  你可以共享服务  或
 With native JavaScript or with NativeScript, you could have services
 
 406
 00:25:25,640 --> 00:25:31,240
+那些能通过纯 JavaScript 方式共享的东西  但这取决于你决定在两者之间共享多少代码
 or things that are purely JavaScript-shared, but it's up to you to decide how much you
 
 407
 00:25:31,240 --> 00:25:35,020
+以及这些共享能给你节省多少时间
 can share between the two, and how much that saves you.
 
 408
 00:25:35,020 --> 00:25:36,260
+我这里讲了很多东西
 I covered a lot of stuff.
 
 409
 00:25:36,260 --> 00:25:41,870
+我可能忘了点什么  可能有些细节错误  但是我从别人那得到了很多帮助
 I probably forgot some things, got some details wrong, but I did get a lot of help from people
 
 410
 00:25:41,870 --> 00:25:44,640
+让我能确信我所说的这些是正确的
 to make sure I was representing things correctly.
 
 411
 00:25:44,640 --> 00:25:49,210
+所以  我还是要鼓励你们在Web开发中自己尝试下 NativeScript 、 Web 和 Ionic 
 So I would like to encourage you to try Angular 2 for NativeScript web and
 
 412
@@ -1885,38 +2028,47 @@ Ionic on your own.
 
 413
 00:25:50,890 --> 00:25:51,900
+取决于开发者的经验
 Check out the developer experience.
 
 414
 00:25:51,900 --> 00:25:56,160
+他们完成了一项伟大的工作：让尝试这些技术变得更简单
 They've all done a great job to make it easy to try these things.
 
 415
 00:25:56,160 --> 00:25:57,840
+评估下这些技术是否和你的目标相匹配
 Evaluate how well they meet your goals.
 
 416
 00:25:57,840 --> 00:26:05,480
+感谢来自 Ionic 和 Google 等团队的伙计们
 Thanks to folks from Ionic, and Google, and the help
 
 417
 00:26:05,480 --> 00:26:09,490
+以及帮助我们收集本幻灯片中的内容的人们  感谢你们的帮助
 getting the content together for this slide, and in general, just being helpful.
 
 418
 00:26:09,490 --> 00:26:10,490
+其它
 Otherwise.
 
 419
 00:26:10,490 --> 00:26:12,590
+这里是与本项目相关的链接
 Here are the links to the project.
 
 420
 00:26:12,590 --> 00:26:14,679
+稍后我会把这些幻灯片发推并共享它们
 I will Tweet the slides and share them later.
 
 421
 00:26:14,679 --> 00:26:15,679
+非常感谢
 Thank you very much.
 
 422
